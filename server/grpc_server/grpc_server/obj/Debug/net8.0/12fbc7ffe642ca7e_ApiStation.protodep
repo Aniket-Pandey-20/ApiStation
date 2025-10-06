@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/ApiStation.cs \
+obj\Debug\net8.0\Protos/ApiStationGrpc.cs: Protos/ApiStation.proto

@@ -1,0 +1,14 @@
+syntax = "proto3";
+option csharp_namespace = "grpc_server";
+package ApiStation;
+
+
+service ApiStation {
+  rpc Ping (PingRequest) returns (PingResponse);
+}
+
+message PingRequest { }
+
+message PingResponse {
+  string message = 1;
+}
